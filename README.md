@@ -14,7 +14,7 @@ HOW TO USE:
   3. Once you receive the files on the server side you can decrypt them with the program I included
       - In order to do this, first download "ServerSideDecryptor.exe"
       - Open the command prompt and navigate to the folder where you have the exe saved
-      - Structure the command like this in the cmd:  
+      - Structure the command like this in the command prompt:  
         ```
         ServerSideDecryptor.exe "kfile.dat" "c0file.dat" "c1file.dat" "c2file.dat"
         ```
