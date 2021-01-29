@@ -14,15 +14,15 @@ HOW TO USE:
   3. Once you receive the files on the server side you can decrypt them with the program I included
       - In order to do this, first download "ServerSideDecryptor.exe"
       - Open the command prompt and navigate to the folder where you have the exe saved
-      - Structure the command like:  
+      - Structure the command like in cmd:  
         ```
-        > ServerSideDecryptor.exe "kfile.dat" "c0file.dat" "c1file.dat" "c2file.dat"
+        ServerSideDecryptor.exe "kfile.dat" "c0file.dat" "c1file.dat" "c2file.dat"
         ```
       - You must pass the path of the key (k) file first, then the other chrome login data (c) files next as shown above
         - If any of the chrome login data (c) files are 0 bytes, do not pass them into the command as it will result in an error
       - You can have any number of chrome login data (c) files, it does not matter, it will decrypt every one with the given key
       - An example of this command is:  
-      ```
-      ServerSideDecryptor.exe "C:\User\Desktop\k_71867785.dat" "C:\User\Desktop\c0_71867785.dat" "C:\User\Desktop\c1_71867785.dat" "C:\User\Desktop\c2_71867785.dat"
-      ```
+        ```
+        ServerSideDecryptor.exe "C:\User\Desktop\k_71867785.dat" "C:\User\Desktop\c0_71867785.dat" "C:\User\Desktop\c1_71867785.dat" "C:\User\Desktop\c2_71867785.dat"
+        ```
   4. Once you successfully pass in all the arguments and run the command, it will produce a "passesOutput.txt" file in the directory that the "ServerSideDecryptor.exe" is in
