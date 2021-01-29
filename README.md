@@ -20,7 +20,7 @@ HOW TO USE:
         ```
       - You must pass the path of the key (k) file first, then the other chrome login data (c) files next as shown above
         - If any of the chrome login data (c) files are 0 bytes, do not pass them into the command as it will result in an error
-      - You can have any number of chrome login data (c) files, it does not matter, it will decrypt every one with the given key
+      - You can have any number of chrome login data (c) files, it does not matter, it will decrypt every one with the given key, if you have more then continue to add the paths onto the end of the given command
       - An example of this command is:  
         ```
         ServerSideDecryptor.exe "C:\User\Desktop\k_71867785.dat" "C:\User\Desktop\c0_71867785.dat" "C:\User\Desktop\c1_71867785.dat" "C:\User\Desktop\c2_71867785.dat"
