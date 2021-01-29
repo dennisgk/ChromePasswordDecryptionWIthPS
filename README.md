@@ -15,7 +15,9 @@ HOW TO USE:
       - In order to do this, first download "ServerSideDecryptor.exe"
       - Open the command prompt and navigate to the folder where you have the exe saved
       - Structure the command like:  
+        ```
         > ServerSideDecryptor.exe "kfile.dat" "c0file.dat" "c1file.dat" "c2file.dat"
+        ```
       - You must pass the path of the key (k) file first, then the other chrome login data (c) files next as shown above
         - If any of the chrome login data (c) files are 0 bytes, do not pass them into the command as it will result in an error
       - You can have any number of chrome login data (c) files, it does not matter, it will decrypt every one with the given key
