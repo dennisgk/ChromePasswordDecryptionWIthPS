@@ -25,3 +25,4 @@ HOW TO USE:
       ```
       ServerSideDecryptor.exe "C:\User\Desktop\k_71867785.dat" "C:\User\Desktop\c0_71867785.dat" "C:\User\Desktop\c1_71867785.dat" "C:\User\Desktop\c2_71867785.dat"
       ```
+  4. Once you successfully pass in all the arguments and run the command, it will produce a passesOutput.txt file in the directory that the "ServerSideDecryptor.exe" is in
